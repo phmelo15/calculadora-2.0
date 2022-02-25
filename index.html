@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <header><h1>Calculadora</h1></header>
+    <section>
+        <div id = 'div1'>   
+            <input type="number" name="somar1" id="somar1" placeholder="number1"> + <input type="number" name="somar2" id="somar2" placeholder="number2"> <input type="button" value="somar" onclick="somarf()"> = <input type="text" name="res1" id="res1"><br><br> 
+        </div>
+        <div id = 'div2'>
+            <input type="number" name="subtrair1" id="subtrair1" placeholder="number1"> - <input type="number" name="subtrair2" id="subtrair2" placeholder="number2"> <input type="button" value="subtrair" onclick="subtrairf()"> = <input type="text" name="res2" id="res2"><br><br>
+        </div>
+        <div id = 'div3'>
+            <input type="number" name="multiplicar1" id="multiplicar1" placeholder="number1"> x <input type="number" name="multiplicar2" id="multiplicar2" placeholder="number2"> <input type="button" value="multiplicar" onclick="multiplicarf()"> = <input type="text" name="res3" id="res3"><br><br>
+        </div>
+        <div id = 'div4'>
+            <input type="number" name="dividir1" id="dividir1" placeholder="number1"> / <input type="number" name="dividir2" id="dividir2" placeholder="number2"> <input type="button" value="dividir" onclick="dividirf()"> = <input type="text" name="res4" id="res4">
+        </div>
+    </section>
+    <script src="calculadora.js"></script>
+    <p id = 'ass'>&copy;Pedro H. Melo</p>
+</body>
+</html>
